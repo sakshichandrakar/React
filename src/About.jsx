@@ -1,10 +1,10 @@
 import React from 'react';
 
-const About =()=>
+const About =(props)=>
 {
 	return(
         <>
-        <h1>About Us Page</h1>
+        <h1>Hello , I am a About us  page</h1>
 
         </>
 		)

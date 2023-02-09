@@ -5,12 +5,19 @@ const Menu =() =>
 {
 	return(
         <>
-        <NavLink activeClassName="active_class" to="/About">About us </NavLink>
-        <NavLink activeClassName="active_class" to="/contact">Contact Us </NavLink>
-        <br/>
-        <a href="/About" >AboutUs</a>
-        <a href="/contact">ContactUs </a>
+        <div className="menu_style">
+	        <NavLink activeClassName="active_class" to="/About">About us </NavLink>
+	        <NavLink activeClassName="active_class" to="/contact">Contact Us </NavLink>
+	        <NavLink activeClassName="active_class" to="/service">Service </NavLink>
+	        <NavLink activeClassName="active_class" to="/name">Name </NavLink>
+
+	    </div>    
         </>
 		)
 }
 export default Menu;
+
+/*<br/>
+	        <br/>
+	        <a href="/About" >AboutUs</a>
+	        <a href="/contact">ContactUs </a>*/

@@ -13,6 +13,8 @@ import Contact from './Contact';
 import About from './About';
 import Erorr from './Erorr';
 import Menu from './Menu';
+import Service from './Service';
+
 
 
 const Dom_router =() =>
@@ -26,6 +28,9 @@ const Dom_router =() =>
 
          <Routes>
              <Route exact path="/contact" element={<Contact/>} />
+         </Routes>
+         <Routes>
+             <Route exact path="/service" element={<Service/>} />
          </Routes>
 
          <Routes>
