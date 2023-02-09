@@ -13,7 +13,21 @@ import Todolist from './Todolist';
 import Accor from './Accor';
 import Bootstrap_d from './Bootstrap_d';
 import Google_keep from './Google_keep';
+import Con from './Con';
+import Use_effect_pr from './Use_effect_pr';
+import Statewise from './component/Statewise';
+import Pokemon from './Pokemon';
+import { BrowserRouter } from "react-router-dom";
+import Dom_router from "./Dom_router";
 
+ReactDOM.render(
+	<BrowserRouter>
+	<Dom_router/>
+	</BrowserRouter>
+	,document.getElementById('dom_router'));
+ReactDOM.render(<Pokemon/>,document.getElementById('pokemon'));
+ReactDOM.render(<Statewise/>,document.getElementById('Statewise'));
+ReactDOM.render(<Use_effect_pr/>,document.getElementById('Use_effect_pr'));
 ReactDOM.render(<Google_keep/>,document.getElementById('Google_keep'));
 ReactDOM.render(<Bootstrap_d/>,document.getElementById('Bootsrap_d'));
 ReactDOM.render(<Accor/>,document.getElementById('Accordian'));

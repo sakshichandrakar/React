@@ -15,6 +15,18 @@
 	font-family: 'Tangerine', serif;
 }
 */
+a
+{
+	text-decoration:none;
+}
+a.active{
+	color: #b51b30;
+	border-bottom: 1px solid red;
+}
+a.active:hover{
+	color: #bb3d7d;
+	border-bottom: 1px solid red;
+}
 .col-sm .card 
 {
 	width: 100%;
